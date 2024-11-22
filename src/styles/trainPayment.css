@@ -1,0 +1,68 @@
+.form-container {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+.form-header h2 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    display: block;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.seat-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.seat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 48%;
+}
+.seat-box h3 {
+    text-align: center;
+}
+.seat-row {
+    display: flex;
+    justify-content: space-between;
+}
+.seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    user-select: none;
+    width: 30%;
+}
+.seat.window { background-color: #e3f2fd; }
+.seat.aisle { background-color: #ffe0b2; }
+.seat.middle { background-color: #e0f7fa; }
+.seat.selected { background-color: #4caf50; color: white; }
+.seat.booked { background-color: #e0e0e0; cursor: not-allowed; }
+.cost-display {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

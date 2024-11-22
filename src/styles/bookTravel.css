@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+.form-container {
+    padding: 2%;
+    border-radius: 2%;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.toggle-buttons {
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.toggle-buttons button {
+    padding: 2%;
+    font-size: 16px;
+    border: none;
+    border-radius: 2%;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-buttons button.active {
+    background-color: #005bb5;
+}
+
+.toggle-buttons button:hover {
+    translate: (2px 2px);
+    background-color: #005bb5;
+}
+
+.travel-option {
+    display: none;
+    margin-top: 20px;
+}
+
+.travel-option.active {
+    display: block;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+input, select {
+    padding: 2%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2%;
+}
+
+.book-button {
+    width:100%;
+    padding: (2.3% 1%);
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #005bb5;
+}
